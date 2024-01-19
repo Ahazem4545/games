@@ -1,0 +1,96 @@
+body{
+    font-family: 'Tektur', sans-serif;
+    background-color: #272b30;
+}
+
+.bg-img{
+    height: 80px;
+   /* background-image:url(/download.jpeg); */
+
+}
+.nav-link{
+    color:white;
+}
+.nav-link:hover{
+   color: #0d87ba;
+   
+}
+
+
+.navbar-text{
+    color: #0d87ba;
+}
+
+.nav-color{
+    background-color: #3a497b;
+    font-family: 'Tektur', sans-serif;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.23);
+}
+
+.font-of-nav{
+    font-size: small;
+}
+
+.active{
+  color: #0d87ba!important;
+}
+
+
+::-webkit-scrollbar-thumb {
+    background-color:black;
+    border-radius: 50px;
+    box-shadow: 0 0 5px rgb(0 0 0 / 0.5) inset;
+}
+::-webkit-scrollbar-track {
+    background-color: rgba(0, 0, 0, 0.415);
+}
+::-webkit-scrollbar {
+    width: 0.625rem;
+}
+.cards-hover{
+    opacity: 50%;
+    transition: 1s;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+}
+.cards-hover:hover{
+    opacity: 100%;
+    transform: scale(1.03);
+    -webkit-transform: scale(1.03);
+    -moz-transform: scale(1.03);
+    -ms-transform: scale(1.03);
+    -o-transform: scale(1.03);
+}
+.color-title{
+    color: #929496;
+    font-family: 'Tektur', sans-serif;
+    font-size: .875em;
+}
+.text-font{
+    font-size: .875em;
+}
+.font-btn{
+    font-size: .575em;
+    background-color:#363739;
+}
+.font-btn-free{
+    font-size: .775em;
+}
+.width-img{
+    width: 90%;
+}
+#close{
+    cursor: pointer;
+}
+
+.title-game{
+    position: fixed;
+    inset: 0;
+    background-color: #272b30;
+    display: none;
+    justify-content: center;
+    align-items: flex-start;
+
+}
